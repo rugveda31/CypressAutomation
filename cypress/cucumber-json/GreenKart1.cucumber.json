@@ -1,0 +1,51 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End to end GreenKart Validation",
+    "line": 1,
+    "id": "end-to-end-greenkart-validation",
+    "tags": [],
+    "uri": "GreenKart1.feature",
+    "elements": [
+      {
+        "id": "end-to-end-greenkart-validation;to-place-particular-order-from-greenkart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "To place particular order from GreenKart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open GreenKart Page",
+            "result": {
+              "status": "undefined",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add item to cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Select the country submit and verify Thankyou",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
